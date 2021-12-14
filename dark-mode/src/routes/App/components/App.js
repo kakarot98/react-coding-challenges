@@ -12,7 +12,7 @@ function App() {
     <div className={`app ${darkTheme ? '': 'dark-mode'}`}>
       <div className="level">
         <div>
-          <h1 className={`title ${darkTheme ? '': '__dark-mode-title'}`}>Dark Mode Challenge</h1>
+          <h1 className="title">Dark Mode Challenge</h1>
         </div>
 
         {/* --The button that should toggle dark mode-- */}
@@ -46,7 +46,7 @@ function App() {
       
       <section className="section">
         <div className="buttons level-right">
-          <a className={` button is-primary ${darkTheme ? '' : 'dark-mode-btn'} `}>Save</a>
+          <a className="button is-primary">Save</a>
           <a className="button is-link">Submit</a>
         </div>
       </section>
