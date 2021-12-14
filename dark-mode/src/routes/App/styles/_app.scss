@@ -7,6 +7,13 @@
   margin: auto;
   box-sizing: content-box;
 
+
+  // .__dark-mode-title {
+  //   color: rgb(68, 68, 170);
+  // }  
+
+  
+
   &__dark-mode-btn {
     border: 0;
     background: transparent;
@@ -27,4 +34,10 @@
     height: 30px;
     width: 100px;
   }
+
+  
 }
+
+// .dark-mode-bg {
+//   background-color: rgb(26, 18, 43);
+// }
